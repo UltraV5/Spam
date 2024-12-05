@@ -21,15 +21,14 @@
 ---
 
 ## المتطلبات
-- **termux**
-- **g++ أو clang** (لتجميع السكريبت).
-- **PcapDroid** (لتوجيه حزم الشبكة من جهاز الأندرويد إلى الوكيل).
+- [termux](https://play.google.com/store/apps/details?id=com.termux) (لتشغيل السكريبت). 
+- [PcapDroid](https://play.google.com/store/apps/details?id=com.emanuelef.remote_capture) (لتوجيه حزم الشبكة من جهاز الأندرويد إلى الوكيل).
 
 ---
 
 ## خطوات التشغيل
 
-### على termux
+### إفتح تطبيق termux
 1. تثبيت الأدوات اللازمة:
     ```bash
     apt install clang
